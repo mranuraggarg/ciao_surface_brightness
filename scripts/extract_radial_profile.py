@@ -16,7 +16,7 @@ output_file = "surface_brightness.fits"
 # Only run dmextract if the output file does not already exist
 if not os.path.exists(output_file):
     dmextract.punlearn()
-    dmextract.infile = "repro/acisf01653_repro_evt2.fits[bin sky=@annuli.reg]"
+    dmextract.infile = "data/repro/acisf01653_repro_evt2.fits[bin sky=@annuli.reg]"
     dmextract.outfile = output_file
     dmextract.opt = "generic"
     dmextract()
