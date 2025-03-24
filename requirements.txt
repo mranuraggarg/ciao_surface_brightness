@@ -1,0 +1,27 @@
+# ------------------------------
+# CIAO & Sherpa Environment Setup
+# ------------------------------
+# It's strongly recommended to install CIAO using the official method:
+# → https://cxc.cfa.harvard.edu/ciao/download/
+
+# If using conda (limited compatibility), create environment via:
+# conda create -n ciao-4.17 sherpa ciao-contrib pycrates matplotlib numpy astropy -c conda-forge
+
+# ------------------------------
+# XSPEC Installation Note
+# ------------------------------
+# XSPEC is not available via pip or conda.
+# It must be installed from HEASoft:
+# → https://heasarc.gsfc.nasa.gov/lheasoft/
+# Follow the Python binding setup at:
+# → https://heasarc.gsfc.nasa.gov/xanadu/xspec/python/html/
+
+# ------------------------------
+# Python Package Requirements
+# ------------------------------
+sherpa==4.15.0
+ciao-contrib
+pycrates
+matplotlib>=3.4
+numpy>=1.21
+astropy>=5.0

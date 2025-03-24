@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository for your research, please cite it using the following metadata."
+title: "Surface Brightness Profile Extraction for A2163 using CIAO and Python"
+authors:
+  - family-names: Garg
+    given-names: Anurag
+    orcid: https://orcid.org/0000-0001-9448-3960
+    affiliation: Ministry of Education, Abu Dhabi, UAE
+version: "1.0"
+date-released: 2025-03-24
+doi: "10.5281/zenodo.1234567"  # Optional: Replace with actual Zenodo DOI after upload
+keywords:
+  - CIAO
+  - Sherpa
+  - Chandra
+  - X-ray Astronomy
+  - A2163
+  - Galaxy Clusters
+  - Surface Brightness
+  - Radial Profile
+license: "MIT"
+repository-code: "https://github.com/<your-username>/ciao_surface_brightness"
+abstract: >
+  This repository provides a complete Python-based analysis pipeline to extract and model the surface brightness profile
+  of the galaxy cluster A2163 using Chandra ACIS-I data. It includes CIAO preprocessing, dmextract radial profile generation,
+  and Sherpa model fitting using a normalized β-model and Gaussian component. Outputs include best-fit model plots, residuals,
+  and a LaTeX report. This project enables reproducible astrophysical analysis of galaxy cluster X-ray emission.

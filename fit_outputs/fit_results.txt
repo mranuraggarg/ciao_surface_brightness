@@ -1,0 +1,36 @@
+Fit Summary: surface_brightness.fits
+-------------------------------------
+Dataset               = 1
+Method                = levmar
+Statistic             = chi2
+Initial fit statistic = 5.25581e+07
+Final fit statistic   = 65.2062 at function evaluation 1793
+Data points           = 50
+Degrees of freedom    = 43
+Probability [Q-value] = 0.0160306
+Reduced statistic     = 1.51642
+Change in statistic   = 5.2558e+07
+   beta_model1.pos   115.123    +/- 3.34144     
+   beta_model1.width 115.695    +/- 2.97059     
+   beta_model1.index 0.503635   +/- 8.60363e-05 
+   beta_model1.ampl  15140.6    +/- 0           
+   gauss_model.fwhm  82.7783    +/- 7.79622     
+   gauss_model.pos   214.82     +/- 2.02232     
+   gauss_model.ampl  0.0817019  +/- 0.00684888  
+WARNING: hard minimum hit for parameter beta_model1.index
+WARNING: hard maximum hit for parameter beta_model1.index
+Dataset               = 1
+Confidence Method     = covariance
+Iterative Fit Method  = None
+Fitting Method        = levmar
+Statistic             = chi2gehrels
+covariance 1-sigma (68.2689%) bounds:
+   Param              Best-Fit        Lower Bound  Upper Bound
+   -----              --------        -----------  -----------
+   beta_model1.pos      115.123       -3.08166      3.08166
+   beta_model1.width    115.695       -0.967827     0.967827
+   beta_model1.index    0.503635        -----        -----
+   beta_model1.ampl     15140.6       -123.152      123.152
+   gauss_model.fwhm     82.7783       -6.97424      6.97424
+   gauss_model.pos      214.82        -1.59113      1.59113
+   gauss_model.ampl     0.0817019     -0.00641967   0.00641967

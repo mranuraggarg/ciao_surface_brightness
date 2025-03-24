@@ -1,0 +1,12 @@
+# .gitignore
+*.fits
+*.evt*
+*.pi
+*.rmf
+*.arf
+*.gz
+*.pdf
+__pycache__/
+.env/
+*.log
+data/
