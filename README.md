@@ -55,3 +55,9 @@ This repository is licensed under the **GNU General Public License v3.0 (GPL-3.0
 ## 🔒 Disclaimer
 
 No Chandra data is included here. Please retrieve it from the public archive.
+
+## 📘 Citation
+
+If you use this repository, please cite it via:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
