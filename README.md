@@ -36,6 +36,11 @@ This repository is licensed under the **GNU General Public License v3.0 (GPL-3.0
 
 ### Project License
 
+This project is licensed under the **GNU General Public License v3.0** (GPL-3.0).  
+See the [LICENSE](./LICENSE) file for details.
+
+> Zenodo DOI: [10.5281/zenodo.15074479](https://doi.org/10.5281/zenodo.15074479)
+
 - The core analysis is built around [Sherpa](https://github.com/sherpa/sherpa), which is licensed under **GPL-3.0**.
 - As a result, this repository and all associated scripts are distributed under the same license.
 
@@ -60,4 +65,6 @@ No Chandra data is included here. Please retrieve it from the public archive.
 
 If you use this repository, please cite it via:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15074479.svg)](https://doi.org/10.5281/zenodo.15074479)
+
+Garg, A. (2025). Surface Brightness Profile Extraction for A2163 using CIAO and Python (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15074479
