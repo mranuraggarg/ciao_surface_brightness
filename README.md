@@ -21,6 +21,7 @@ This repository contains a Python-based analysis pipeline to:
 
 ```bash
 python scripts/extract_radial_profile.py
+```
 
 ## 📄 Output
 - Fitted parameters and uncertainty
